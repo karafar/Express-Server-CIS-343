@@ -2,9 +2,9 @@
   "name": "oogle-api",
   "version": "1.0.0",
   "description": "",
-  "main": "OoGle-people-manager.js",
+  "main": "peopleManager.js",
   "scripts": {
-    "start": "node OoGle-people-manager.js",
+    "start": "node peopleManager.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "The Lord Of The Nine Realms",
