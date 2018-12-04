@@ -1,5 +1,9 @@
 # Express Server, CIS 343
 
+Parts of this file were supplied by the projects creator, Jarred Parr, a fellow CS student. 
+This was intended to be fun, yet short, introduction to the wonders of node.
+
+
 ### Getting Started
 
 The only requirements are:
