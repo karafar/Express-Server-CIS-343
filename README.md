@@ -12,7 +12,7 @@ Alternatively, use `npm start &` to run the server in the background then there 
 
 #### Sending commands to our server.
 
-###### Getting all of our programmers
+##### Getting all of our programmers
 
 Now that we have our server up and running we can use curl to send some commands. Our server is set up to return all of the programmers within our 'database' (json file).
 ```
@@ -22,8 +22,7 @@ We should see the contents of our JSON file returned.
 
 Alternatively, we could have gone to the browser and typed `localhost:3000`.
 
----
-###### Getting a specific programmer by ID
+##### Getting a specific programmer by ID
 
 To get a specific programmer use the following command.
 ```
@@ -33,7 +32,7 @@ curl -X GET http://localhost:3000/00000-000000-00000
 If the programmer exists, then we will see their details. Otherwise, a small message will be returned.
 
 
-###### We can add a programmer with a post request.
+##### We can add a programmer with a post request.
 
 The validation for the JSON is quite strict, so I'd reccomend looking at the `utils.js` file. That is where the schema is located.
 
